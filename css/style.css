@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #B91450;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+  h3{
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  h4{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  .up,
+  .down{
+    margin-top: 30px;
+  }
+  
+  .hidden{
+    opacity: 0;
+  }
+  
+  .show{
+    opacity: 1;
+  }
+  
+  .up .calcolo{
+    width: 1000px;
+    margin:30px auto;
+    padding: 25px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.55);
+  }
+  
+  .up .dati,
+  .up .pulsanti{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .up .dati .riquadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .up .dati .riquadro label{
+    padding-bottom: 15px;
+    color: #B91450;
+  }
+  
+  .btn{
+    color: #B91450;
+    background-color: lightgrey;
+    border: 1px solid #B91450;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 6px;
+    font-weight: bold;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+  }
+  
+  input::placeholder{
+    text-align: center;
+  }
+  
+  input:focus,
+  select:focus
+  {
+    background-color: #B91450;
+    color: white;
+  }
+  
+  input,
+  select{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #B91450;
+    padding: 6px;
+  }
+
+  .down #riepilogo{
+    width: 1000px;
+    margin:30px auto;
+    padding: 25px;
+    background-color: white;
+  }
+  
+  .down .dettagli{
+    display: flex;
+  }
+  
+  .down .passeggero{
+    margin-right: 150px;
+    padding-top: 25px;
+  }
+  
+  .down table th,
+  .down table td{
+    padding: 25px;
+  }
